@@ -2,7 +2,7 @@ import { connect, set } from "mongoose";
 
 const MongoInit = async () =>
     connect(
-        "mongodb+srv://admin:Dd2URAVZLHQkNcte@comp3133.bhrgzig.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://admin:KbAEroWiJG1YGCOt@comp3133.bhrgzig.mongodb.net/?retryWrites=true&w=majority&appName=COMP3133",
         {
             // useNewUriParser: true,
         },
